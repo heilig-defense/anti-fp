@@ -3,5 +3,5 @@ Please report bugs relating to the Anti-Fp application, extensions or antifp.com
 
 Learn more about Anti-Fp.
 
-https://www.cydecplatform.com/antifp.html
+https://www.cydecplatform.com/antifp.html<br>
 https://www.antifp.com/
