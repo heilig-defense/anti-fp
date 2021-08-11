@@ -1,0 +1,108 @@
+v1.2021.217.1610 (05 AUG 2021)
+-ADDED (APP): Ability to wipe Chrome FLoC data on close.
+-ADDED (APP): Setting deprecation warnings.
+-UPDATED (ALL): Separated Navigator Platform and OSCPU for distinct targeting.
+-UPDATED (EXT): Set Firefox resist-like profile as the default profile.
+
+v1.2021.184.1449 (03 JUL 2021)
+-ADDED (ALL): Exposed and expanded WebAudio spoofing.
+-FIXED (EXT): Incorrect icon path on options page.
+-UPDATED (EXT): Enhanced nested iframe spoofing support.
+-UPDATED (ALL): Other minor issues.
+
+v1.2021.164.1332 (13 JUN 2021)
+-ADDED (ALL): Ability to assign colors to profiles for easier identification.
+-ADDED (EXT): sec-ch-ua request header now spoofed for Chromium.
+-ADDED (ALL): WebGL shadingLanguage and Version fields.
+-UPDATED (EXT): Modified WebGL and canvas spoofing method.
+-UPDATED (EXT): Uncommon user-agent strings removed from random list.
+-UPDATED (EXT): Added workaround for recently introduced Chrome tab bug (#1213925).
+-FIXED (WEB): Font off setting not sticking.
+
+v1.2021.148.1610 (ALL) (28 MAY 2021)
+-ADDED (ALL): Created Github issue tracker (https://github.com/heilig-defense/anti-fp/issues)
+-FIXED (EXT): Domains and pattern initial options not properly set.
+-FIXED (EXT): Automatic tab setting selection not being selected in list.
+-FIXED (EXT): Pattern matched profile name not set in popup UI.
+-FIXED (EXT): DateTimeFormat locale using incorrect value.
+-UPDATED (APP/EXT): Optimized language header output.  Will now only normalize if language weight not detected.
+
+v1.2021.137.1450 (ALL) (17 MAY 2021)
+-FIXED (ALL): Pre-set language value not parsing properly.
+
+v1.2021.134.1824 (APP/EXT) (14 MAY 2021)
+-ADDED (EXT): Automatically set profile on new tabs.
+-ADDED (EXT): userAgentData blocking.
+-ADDED (ALL): Option to specify if time zone is currently in daylight savings time. 
+-ADDED (EXT/WEB): Started effort to add international language support.
+-UPDATED (EXT): WebRTC public IP sync.
+-UPDATED (ALL): Separated language settings to individually set Javascript and header values.
+-UPDATED (ALL): Plugins randomization with sticky values.  Removed setting specific values.  Added warning about plugin deprecation.
+-FIXED (APP): Network settings not displaying.
+-FIXED (APP): Updated description for canvas and WebGl spoofing to reflect actual behavior.
+-FIXED (APP): Incorrectly set time zone value to locale.
+-FIXED (EXT): Other minor issues.
+
+v1.2021.108.121 (APP/EXT) (18 APR 2021)
+-ADDED (ALL): FLoC blocking.
+-ADDED (ALL): WebRTC set or spoof IP addresses.
+-ADDED (EXT): Exposed WebRTC IP overrides.
+-ADDED (ALL): macOS Catalina to font spoofing list.
+-UPDATED (EXT): License validation behavior.
+-FIXED (APP): Language not sticking for certain values.
+-FIXED (EXT): Other minor issues.
+
+v1.2021.92.1720 (APP/EXT) (04 APR 2021)
+-ADDED (EXT): Enhanced resist fingerprinting mode.
+-ADDED (EXT): HSTS protection.
+-ADDED (EXT): MimeType blocking for Chrome extension.
+-ADDED (EXT): Performance protection.
+-ADDED (EXT): Exposed user-agent string override.
+-ADDED (EXT): Referrer trimming option.
+-UPDATED (ALL): Time zone information.
+-UPDATED (ALL): Documentation
+-FIXED (EXT): Media device spoofing bug.
+-FIXED (ALL): Other minor issues.
+
+v1.2021.48.1841 (APP/EXT) (17 FEB 2021)
+-ADDED (APP/EXT): Exposed setting to block or spoof eval.
+-FIXED (EXT): Incorrect global override update for new favicon setting.
+-FIXED (EXT): Font spoofing not set when generating profile.
+-UPDATED (EXT): Other minor bug fixes and enhancements.
+
+v1.2021.44.2146 (APP) / v1.2021.44.1715 (EXT) (13 FEB 2021)
+-ADDED (EXT): favicon tracking protection.
+-ADDED (APP): Automatic lookup of latest browser versions.
+-FIXED (EXT): Status icon not updating based on regex matching.
+-UPDATED (ALL): Other minor bug fixes and enhancements.
+
+v1.2021.23.2055 (APP) / 1.2021.23.1601 (EXT) (23 JAN 2021)
+-ADDED (APP): Installation option to install for current or all users.
+-FIXED (APP): Timezone and language not being set in profile dropdowns.
+-UPDATED (EXT): General bug fixes and enhancements.
+
+v1.2020.359.2125 (APP/EXT/WEB) (24 DEC 2020)
+-UPDATED: Enhanced anti-font fingerprinting (can set Linux and Windows specific profiles).
+-FIXED: iframe spoofing issue.
+-FIXED: 'Use main domain' settings bug.
+-FIXED: Issue generating profile with mobile selected on antifp.com.
+-FIXED: Extension popup not displaying correct override values.
+
+v1.2020.352.1515 (EXT) (17 DEC 2020)
+-ADDED: WebGL vendor/render extension overrides.
+-UPDATED: Minor UI tweaks.
+-FIXED: Some settings not fully turned off from global or domain switches.
+
+v1.2020.349.1710 (APP/EXT/WEB) (14 DEC 2020)
+-ADDED: Ability to generate profiles.
+-ADDED: Domain pattern matching.
+-ADDED: Ability to sync fingerprints from antifp.com to app.
+-ADDED: Profile building wizard.
+-ADDED: Built-in calendar and numbering system values.
+-ADDED: Ability to set speech, media, gamepads, network, battery and VR devices.
+-ADDED: Ability to spoof some web audio values.
+-UPDATED: Extension UI updates.
+-UPDATED: Expanded override options.
+-UPDATED: Date and timezone calculations.
+-UPDATED: Documentation.
+-FIXED: Numerous bugs.
